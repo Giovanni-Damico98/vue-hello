@@ -2,7 +2,9 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
-      message: "Hello World!",
+      welcome: "Hello Vue!",
+      imageUrl: "https://vuejs.org/images/logo.png",
+      message: "Nice to meet you!",
     };
   },
   methods: {},
